@@ -96,6 +96,513 @@
         </Source>
     </Package>
     <Package>
+        <Name>lxappearance-obconf</Name>
+        <Summary xml:lang="en">Plugin to configure Openbox inside LXAppearance.</Summary>
+        <Description xml:lang="en">This plugin adds an additional tab called &quot;Window Border&quot; to LXAppearance.It is only visible when the plugin is installed and Openbox is in use.</Description>
+        <IsA>library</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPL-2</License>
+        <RuntimeDependencies>
+            <Dependency>atk</Dependency>
+            <Dependency>gtk3</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>libSM</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>imlib2</Dependency>
+            <Dependency>libICE</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libXft</Dependency>
+            <Dependency>librsvg</Dependency>
+            <Dependency>libxml2</Dependency>
+            <Dependency>openbox</Dependency>
+            <Dependency>freetype</Dependency>
+            <Dependency>harfbuzz</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>fontconfig</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.2.3</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>254882</InstalledSize>
+        <PackageSize>49433</PackageSize>
+        <PackageHash>a13a14564c2fee4e5cc6484a6c5209780e4d77f7</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>l/lxappearance-obconf/lxappearance-obconf-0.2.3-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxappearance-obconf</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lxde-common</Name>
+        <Summary xml:lang="en">LXDE Session default configuration files.</Summary>
+        <Description xml:lang="en">lxde-common provides LXDE Session default configuration files and nuoveXT2 iconset.</Description>
+        <IsA>data</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency>gtk3</Dependency>
+            <Dependency>lxpanel</Dependency>
+            <Dependency>pcmanfm</Dependency>
+            <Dependency>openbox</Dependency>
+            <Dependency>lxsession</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.99.2</Version>
+                <Comment>First build.</Comment>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>927551</InstalledSize>
+        <PackageSize>810458</PackageSize>
+        <PackageHash>f297f320e7ef0af8d2ee0c3144ed55f699a03e1e</PackageHash>
+        <InstallTarHash>5d3eb8e4ad2184f23bca1ef309a0b1aca40ebd9f</InstallTarHash>
+        <PackageURI>l/lxde-common/lxde-common-0.99.2-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxde-common</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lxappearance</Name>
+        <Summary xml:lang="en">A new feature-rich GTK+ theme switcher.</Summary>
+        <Description xml:lang="en">LXAppearance is a new GTK+ theme switcher developed for project LXDE.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency>dbus</Dependency>
+            <Dependency>gtk3</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.6.3</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>396261</InstalledSize>
+        <PackageSize>75283</PackageSize>
+        <PackageHash>f5d2c1e5ef764c1b456e086926d594f016f80241</PackageHash>
+        <InstallTarHash>437ab34dad64cda399cb46bcccaeceee86129e6f</InstallTarHash>
+        <PackageURI>l/lxappearance/lxappearance-0.6.3-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxappearance</Name>
+            <Homepage>http://wiki.lxde.org/en/LXAppearance</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lxsession</Name>
+        <Summary xml:lang="en">LXDE session manager.</Summary>
+        <Description xml:lang="en">lxsession is the default X11 session manager of LXDE.</Description>
+        <IsA>app</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency>gtk3</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>polkit</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.5.5</Version>
+                <Comment>First build.</Comment>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1560226</InstalledSize>
+        <PackageSize>278376</PackageSize>
+        <PackageHash>b6626c767b1c52318b60bf9f3715a8e876cfbdb0</PackageHash>
+        <InstallTarHash>3c0f4d7f72615272a43aef025792d6eb7d3fe4f0</InstallTarHash>
+        <PackageURI>l/lxsession/lxsession-0.5.5-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxsession</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lxhotkey</Name>
+        <Summary xml:lang="en">A lightweight global keyboard shortcuts configurator.</Summary>
+        <Description xml:lang="en">LXHotkey is an universal application for the Lightweight X11 Desktop Environment (LXDE) which allows view and change global keyboard shortcuts for Window Manager actions, including ones to start applications.</Description>
+        <IsA>app</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency>atk</Dependency>
+            <Dependency>gtk3</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>libfm</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>harfbuzz</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>libunistring</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.1.1</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>232252</InstalledSize>
+        <PackageSize>53204</PackageSize>
+        <PackageHash>a93387c3fc97a979bf5fd677f391415081ed118b</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>l/lxhotkey/lxhotkey-0.1.1-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxhotkey</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lxmenu-data</Name>
+        <Summary xml:lang="en">Menu data files for LXDE.</Summary>
+        <Description xml:lang="en">lxmenu-data provides files needed for LXDE application menus.</Description>
+        <IsA>data</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>LGPL-2.1</License>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.1.5</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>164129</InstalledSize>
+        <PackageSize>46731</PackageSize>
+        <PackageHash>e23c810ec793dcaa7d63349a47cdb322d20a20ea</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>l/lxmenu-data/lxmenu-data-0.1.5-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxmenu-data</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lxpanel</Name>
+        <Summary xml:lang="en">Lightweight X11 desktop panel for LXDE.</Summary>
+        <Description xml:lang="en">lxpanel is a lightweight X11 desktop panel for LXDE.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency>atk</Dependency>
+            <Dependency>gtk3</Dependency>
+            <Dependency>curl</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libfm</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libxml2</Dependency>
+            <Dependency>alsa-lib</Dependency>
+            <Dependency>libwnck3</Dependency>
+            <Dependency>keybinder</Dependency>
+            <Dependency>menu-cache</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>fontconfig</Dependency>
+            <Dependency>lxmenu-data</Dependency>
+            <Dependency>wireless-tools</Dependency>
+            <Dependency>network-manager-applet</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.10.1</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3384863</InstalledSize>
+        <PackageSize>1247134</PackageSize>
+        <PackageHash>0f46e21cb194afb5b5fd1cea723e77dc282536c8</PackageHash>
+        <InstallTarHash>ad61851980621956f488ce6c99a4835cb4cccbd5</InstallTarHash>
+        <PackageURI>l/lxpanel/lxpanel-0.10.1-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxpanel</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lxrandr</Name>
+        <Summary xml:lang="en">LXDE GUI interface to RandR extention.</Summary>
+        <Description xml:lang="en">lxrandr is a LXDE GUI interface to RandR extention.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPL-2</License>
+        <RuntimeDependencies>
+            <Dependency>gtk3</Dependency>
+            <Dependency>glib2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.3.2</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>253877</InstalledSize>
+        <PackageSize>54108</PackageSize>
+        <PackageHash>a81ddb84646b97fd15bb68c285830e400c4222ce</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>l/lxrandr/lxrandr-0.3.2-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxrandr</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lxtask</Name>
+        <Summary xml:lang="en">LXDE Task manager.</Summary>
+        <Description xml:lang="en">Lxtask is a lightweight and desktop independent task manager.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency>gtk3</Dependency>
+            <Dependency>glib2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.1.10</Version>
+                <Comment>First build.</Comment>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>266134</InstalledSize>
+        <PackageSize>55104</PackageSize>
+        <PackageHash>2b1a819e3ffe68ace196e10ef028673390034f77</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>l/lxtask/lxtask-0.1.10-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxtask</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lxterminal</Name>
+        <Summary xml:lang="en">Lightweight terminal emulator.</Summary>
+        <Description xml:lang="en">Lxterminal is a Lightweight vte-based tabbed terminal emulator for LXDE.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency>vte</Dependency>
+            <Dependency>gtk3</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="5">
+                <Date>2021-02-13</Date>
+                <Version>0.4.0</Version>
+                <Comment>Version bump.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+            <Update release="4">
+                <Date>2020-01-16</Date>
+                <Version>0.3.2</Version>
+                <Comment>Rebuild.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+            <Update release="3">
+                <Date>2013-10-11</Date>
+                <Version>0.1.11</Version>
+                <Comment>rebuild</Comment>
+                <Name>Erdinç Gültekin</Name>
+                <Email>erdincgultekin@pisilinux.org</Email>
+            </Update>
+            <Update release="2">
+                <Date>2013-08-14</Date>
+                <Version>0.1.11</Version>
+                <Comment>rebuild</Comment>
+                <Name>Erdinç Gültekin</Name>
+                <Email>erdincgultekin@pisilinux.org</Email>
+            </Update>
+            <Update release="1">
+                <Date>2012-06-17</Date>
+                <Version>0.1.11</Version>
+                <Comment>First release</Comment>
+                <Name>Erdinç Gültekin</Name>
+                <Email>admins@pisilinux.org</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>401280</InstalledSize>
+        <PackageSize>86969</PackageSize>
+        <PackageHash>a068a7bf87ccb2184ca3bd7509c87f826efc0aa9</PackageHash>
+        <InstallTarHash>44489b92510c3a5c961ce897b64f7e2f06bfe634</InstallTarHash>
+        <PackageURI>l/lxterminal/lxterminal-0.4.0-5-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxterminal</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>lxinput</Name>
+        <Summary xml:lang="en">LXDE keyboard and mouse configuration tool.</Summary>
+        <Description xml:lang="en">lxinput is tool for LXDE keyboard and mouse configuration.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPLv3</License>
+        <RuntimeDependencies>
+            <Dependency>gtk3</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>libX11</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.3.5</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>253473</InstalledSize>
+        <PackageSize>64763</PackageSize>
+        <PackageHash>b8062a9f6b73b013c96fa9a5ce0afb50fe66f6af</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>l/lxinput/lxinput-0.3.5-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxinput</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>libetpan</Name>
         <Summary xml:lang="en">A portable middleware for email access.</Summary>
         <Description xml:lang="en">The purpose of this mail library is to provide a portable, efficient framework for different kinds of mail access: IMAP, SMTP, POP and NNTP.</Description>
@@ -132,6 +639,51 @@
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>pcmanfm</Name>
+        <Summary xml:lang="en">LXDE default file manager.</Summary>
+        <Description xml:lang="en">PCMan File Manager is an extremly fast and lightweight file manager for LXDE.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPL-2</License>
+        <RuntimeDependencies>
+            <Dependency>atk</Dependency>
+            <Dependency>gtk3</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>libfm</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>1.3.2</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1442146</InstalledSize>
+        <PackageSize>275714</PackageSize>
+        <PackageHash>3b7d590bd51769b2d7b89bd009957b8cc2acbfc0</PackageHash>
+        <InstallTarHash>7fa174af08d1af32956d633ab5803c5b3e18f410</InstallTarHash>
+        <PackageURI>p/pcmanfm/pcmanfm-1.3.2-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>pcmanfm</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
             </Packager>
         </Source>
     </Package>

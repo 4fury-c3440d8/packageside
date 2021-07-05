@@ -233,6 +233,55 @@
         </Source>
     </Package>
     <Package>
+        <Name>dunst</Name>
+        <Summary xml:lang="en">Lightweight and customizable notification daemon.</Summary>
+        <Description xml:lang="en">Dunst is a lightweight replacement for the notification daemons provided by most desktop environments. It’s very customizable, isn’t dependent on any toolkits, and therefore fits into those window manager centric setups we all love to customize to perfection.</Description>
+        <IsA>service</IsA>
+        <PartOf>desktop.misc</PartOf>
+        <License>BSD-3-Clause</License>
+        <RuntimeDependencies>
+            <Dependency>dbus</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libXext</Dependency>
+            <Dependency>libXrandr</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>libXinerama</Dependency>
+            <Dependency>libXScrnSaver</Dependency>
+            <Dependency>wayland-client</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-07-04</Date>
+                <Version>1.6.1</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>uglyside@yandex.ru</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>263967</InstalledSize>
+        <PackageSize>80757</PackageSize>
+        <PackageHash>a2b6333623d0dd307cf1c6513b558c8013438641</PackageHash>
+        <InstallTarHash>1f1da170b31f2778cdef6964cd9cc2fd08393318</InstallTarHash>
+        <PackageURI>d/dunst/dunst-1.6.1-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>dunst</Name>
+            <Homepage>https://dunst-project.org/</Homepage>
+            <Packager>
+                <Name>fury</Name>
+                <Email>uglyside@yandex.ru</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>gtkhash-plugin-schema</Name>
         <Summary xml:lang="en">A cross-platform desktop utility for computing message digests or checksums.</Summary>
         <Description xml:lang="en">GtkHash is a desktop utility for computing message digests or checksums. Most well-known hash functions are supported, including MD5, SHA1, SHA2 (SHA256/SHA512), SHA3 and BLAKE2.</Description>
@@ -1238,6 +1287,45 @@
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>obkey</Name>
+        <Summary xml:lang="en">Openbox Key Editor.</Summary>
+        <Description xml:lang="en">ObKey - Openbox Key Editor (PyGObject version).</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPL-2</License>
+        <RuntimeDependencies>
+            <Dependency>gtk3</Dependency>
+            <Dependency>python-pygobject3</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-07-03</Date>
+                <Version>1.2</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>uglyside@yandex.ru</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>96239</InstalledSize>
+        <PackageSize>20955</PackageSize>
+        <PackageHash>7d8ef201b6e57e7540277c7ee46611df93a99f3e</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>o/obkey/obkey-1.2-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>obkey</Name>
+            <Homepage>https://github.com/stevenhoneyman/obkey</Homepage>
+            <Packager>
+                <Name>fury</Name>
+                <Email>uglyside@yandex.ru</Email>
             </Packager>
         </Source>
     </Package>

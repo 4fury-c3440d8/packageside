@@ -1,92 +1,5 @@
 <PISI>
     <Package>
-        <Name>ayatana-libappindicator</Name>
-        <Summary xml:lang="en">A library to allow applications to export a menu into the Unity Menu bar.</Summary>
-        <Description xml:lang="en">A library to allow applications to export a menu into the Unity Menu bar.</Description>
-        <IsA>library</IsA>
-        <PartOf>desktop.misc</PartOf>
-        <License>LGPL-3</License>
-        <RuntimeDependencies>
-            <Dependency>atk</Dependency>
-            <Dependency>gtk3</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>cairo</Dependency>
-            <Dependency>pango</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-            <Dependency>ayatana-libindicator</Dependency>
-            <Dependency>libdbusmenu-glib</Dependency>
-            <Dependency>libdbusmenu-gtk3</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-06-18</Date>
-                <Version>0.5.5</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>368173</InstalledSize>
-        <PackageSize>78141</PackageSize>
-        <PackageHash>ab0aa2b2178758bfdea091a470c5e1e6b73bfe6a</PackageHash>
-        <InstallTarHash>d70ca4621b9c52db9603a9f1fb1f3295d110dcbc</InstallTarHash>
-        <PackageURI>a/ayatana-libappindicator/ayatana-libappindicator-0.5.5-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ayatana-libappindicator</Name>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>ayatana-ido</Name>
-        <Summary xml:lang="en">A set of symbols and convience functions that all indicators would like to use.</Summary>
-        <Description xml:lang="en">Libary with a set of symbols and convience functions that all indicators would like to use (GTK+ 2 library)</Description>
-        <IsA>library</IsA>
-        <PartOf>unknown</PartOf>
-        <License>GPLv3</License>
-        <RuntimeDependencies>
-            <Dependency>gtk3</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>cairo</Dependency>
-            <Dependency>pango</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-06-18</Date>
-                <Version>0.8.2</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>341327</InstalledSize>
-        <PackageSize>79864</PackageSize>
-        <PackageHash>7b2dda046542135e45fa2983ccd9a4c01d0737c6</PackageHash>
-        <InstallTarHash>c3639d09f37d035477923d7ac77b60e6ca08747b</InstallTarHash>
-        <PackageURI>a/ayatana-ido/ayatana-ido-0.8.2-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ayatana-ido</Name>
-            <Homepage>https://github.com/AyatanaIndicators/ayatana-ido</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>alsa-plugins</Name>
         <Summary xml:lang="en">The Advanced Linux Sound Architecture (ALSA) plugins.</Summary>
         <Summary xml:lang="tr">Gelişmiş Linux Ses Mimarisi (ALSA) eklentileri</Summary>
@@ -129,107 +42,6 @@
             <Packager>
                 <Name>PisiLinux Community</Name>
                 <Email>admins@pisilinux.org</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>ayatana-libindicator</Name>
-        <Summary xml:lang="en">Ayatana Indicators Shared Library.</Summary>
-        <Description xml:lang="en">The Ayatana Indicators project is the continuation of Application Indicators and System Indicators, two technologies developed by Canonical Ltd. for the Unity7 desktop.</Description>
-        <IsA>library</IsA>
-        <PartOf>unknown</PartOf>
-        <License>GPL-3</License>
-        <RuntimeDependencies>
-            <Dependency>gtk3</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-            <Dependency>ayatana-ido</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-06-18</Date>
-                <Version>0.8.4</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>461537</InstalledSize>
-        <PackageSize>102456</PackageSize>
-        <PackageHash>77e85034c408ec05cf4acca92fd00f5eb0f332b9</PackageHash>
-        <InstallTarHash>08e6967c52df439d48322435ff92581635baad88</InstallTarHash>
-        <PackageURI>a/ayatana-libindicator/ayatana-libindicator-0.8.4-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ayatana-libindicator</Name>
-            <Homepage>https://github.com/AyatanaIndicators/libayatana-indicator</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>cpp-utilities</Name>
-        <Summary xml:lang="en">Common C++ classes and routines used by my applications such as argument parser, IO and conversion utilities.</Summary>
-        <Description xml:lang="en">Common C++ classes and routines used by my applications such as argument parser, IO and conversion utilities.</Description>
-        <IsA>library</IsA>
-        <PartOf>programming.library</PartOf>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>boost</Dependency>
-            <Dependency>libgcc</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="4">
-                <Date>2021-09-13</Date>
-                <Version>5.11.1</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="3">
-                <Date>2021-07-11</Date>
-                <Version>5.10.5</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="2">
-                <Date>2021-06-19</Date>
-                <Version>5.10.4</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="1">
-                <Date>2021-02-20</Date>
-                <Version>5.10.1</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>420603</InstalledSize>
-        <PackageSize>121842</PackageSize>
-        <PackageHash>553714d5e800629b1c8480e3486c11e74ab92352</PackageHash>
-        <InstallTarHash>e81252dd0cbbe1e878433faa1a2990fec4fe7362</InstallTarHash>
-        <PackageURI>c/cpp-utilities/cpp-utilities-5.11.1-4-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>cpp-utilities</Name>
-            <Homepage>https://github.com/Martchus/cpp-utilities</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
             </Packager>
         </Source>
     </Package>
@@ -287,75 +99,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>claws-mail</Name>
-        <Summary xml:lang="en">Claws Mail is an email client (and news reader), based on GTK+.</Summary>
-        <Description xml:lang="en">Claws Mail is a lightweight and highly configurable email client and news reader based on the GTK+ GUI toolkit.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>network.mail</PartOf>
-        <License>GPLv3</License>
-        <RuntimeDependencies>
-            <Dependency>db</Dependency>
-            <Dependency>atk</Dependency>
-            <Dependency>curl</Dependency>
-            <Dependency>gtk3</Dependency>
-            <Dependency>perl</Dependency>
-            <Dependency>zlib</Dependency>
-            <Dependency>cairo</Dependency>
-            <Dependency>expat</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>gpgme</Dependency>
-            <Dependency>libSM</Dependency>
-            <Dependency>pango</Dependency>
-            <Dependency>gnutls</Dependency>
-            <Dependency>libICE</Dependency>
-            <Dependency>nettle</Dependency>
-            <Dependency>libical</Dependency>
-            <Dependency>librsvg</Dependency>
-            <Dependency>openssl</Dependency>
-            <Dependency>python3</Dependency>
-            <Dependency>compface</Dependency>
-            <Dependency>enchant2</Dependency>
-            <Dependency>harfbuzz</Dependency>
-            <Dependency>libetpan</Dependency>
-            <Dependency>dbus-glib</Dependency>
-            <Dependency>libassuan</Dependency>
-            <Dependency>libnotify</Dependency>
-            <Dependency>cyrus-sasl</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-            <Dependency>libarchive</Dependency>
-            <Dependency>libgpg-error</Dependency>
-            <Dependency>openldap-client</Dependency>
-            <Dependency>startup-notification</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-07-10</Date>
-                <Version>4.0.0</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>14232953</InstalledSize>
-        <PackageSize>2904584</PackageSize>
-        <PackageHash>64a5f1a3e40b9dec725d2196110dab937d0e97a5</PackageHash>
-        <InstallTarHash>cf24e0c8b1ac44b2baf1eaaf7f71f348c7394d16</InstallTarHash>
-        <PackageURI>c/claws-mail/claws-mail-4.0.0-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>claws-mail</Name>
-            <Homepage>https://www.claws-mail.org/</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>cponysay</Name>
         <Summary xml:lang="en">A basic C implementation of Ponysay.</Summary>
         <Description xml:lang="en">A basic C implementation of Ponysay.</Description>
@@ -387,107 +130,6 @@
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>diodon</Name>
-        <Summary xml:lang="en">Clipboard manager.</Summary>
-        <Description xml:lang="en">Aiming to be the best integrated clipboard manager for the Unity desktop.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>desktop.misc</PartOf>
-        <License>GPL-2</License>
-        <RuntimeDependencies>
-            <Dependency>gtk3</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>libX11</Dependency>
-            <Dependency>libXtst</Dependency>
-            <Dependency>libpeas</Dependency>
-            <Dependency>zeitgeist</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-            <Dependency>ayatana-libappindicator</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2021-09-07</Date>
-                <Version>1.11.1</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="1">
-                <Date>2021-06-18</Date>
-                <Version>1.11.0</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1195910</InstalledSize>
-        <PackageSize>108811</PackageSize>
-        <PackageHash>e30d74c692c49481ebcc0fb00f59c60ef26590f5</PackageHash>
-        <InstallTarHash>711d726499ea82c8fb5f13ca1b9647ff075a1f57</InstallTarHash>
-        <PackageURI>d/diodon/diodon-1.11.1-2-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>diodon</Name>
-            <Homepage>https://github.com/diodon-dev/diodon</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>dunst</Name>
-        <Summary xml:lang="en">Lightweight and customizable notification daemon.</Summary>
-        <Description xml:lang="en">Dunst is a lightweight replacement for the notification daemons provided by most desktop environments. It’s very customizable, isn’t dependent on any toolkits, and therefore fits into those window manager centric setups we all love to customize to perfection.</Description>
-        <IsA>service</IsA>
-        <PartOf>desktop.misc</PartOf>
-        <License>BSD-3-Clause</License>
-        <RuntimeDependencies>
-            <Dependency>dbus</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>cairo</Dependency>
-            <Dependency>pango</Dependency>
-            <Dependency>libX11</Dependency>
-            <Dependency>libXext</Dependency>
-            <Dependency>libXrandr</Dependency>
-            <Dependency>libnotify</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-            <Dependency>libXinerama</Dependency>
-            <Dependency>libXScrnSaver</Dependency>
-            <Dependency>wayland-client</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-07-04</Date>
-                <Version>1.6.1</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>263967</InstalledSize>
-        <PackageSize>80757</PackageSize>
-        <PackageHash>a2b6333623d0dd307cf1c6513b558c8013438641</PackageHash>
-        <InstallTarHash>1f1da170b31f2778cdef6964cd9cc2fd08393318</InstallTarHash>
-        <PackageURI>d/dunst/dunst-1.6.1-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>dunst</Name>
-            <Homepage>https://dunst-project.org/</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
             </Packager>
         </Source>
     </Package>
@@ -527,85 +169,6 @@
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>gaupol</Name>
-        <Summary xml:lang="en">Editor for text-based subtitle files.</Summary>
-        <Summary xml:lang="tr">Metin yazı biçimli altyazıları düzenleme aracı</Summary>
-        <Description xml:lang="en">Gaupol is an editor for text-based subtitle files. It supports multiple subtitle file formats and provides means of creating, editing and translating subtitles and timing subtitles to match video.</Description>
-        <Description xml:lang="tr">Metin yazı biçimli altyazıları düzenleme aracıdır. Çeşitli altyazı türlerini desteklemektedir. Ayrıca yazı içeriğini ve zamanlamayı düzeltmenize olanak sağlar.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>multimedia.editor</PartOf>
-        <License>GPLv3</License>
-        <RuntimeDependencies>
-            <Dependency>gtk3</Dependency>
-            <Dependency>python3</Dependency>
-            <Dependency>iso-codes</Dependency>
-            <Dependency>gst-libav</Dependency>
-            <Dependency>mpv-player</Dependency>
-            <Dependency>python3-cairo</Dependency>
-            <Dependency>python3-chardet</Dependency>
-            <Dependency>gst-plugins-bad</Dependency>
-            <Dependency>gst-plugins-base</Dependency>
-            <Dependency>gst-plugins-ugly</Dependency>
-            <Dependency>gst-plugins-good</Dependency>
-            <Dependency>python3-pygobject3</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="5">
-                <Date>2021-01-20</Date>
-                <Version>1.9</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="4">
-                <Date>2020-04-30</Date>
-                <Version>1.8</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="3">
-                <Date>2014-06-18</Date>
-                <Version>0.19.2</Version>
-                <Comment>Rebuild for gcc</Comment>
-                <Name>Osman Erkan</Name>
-                <Email>osman.erkan@pisilinux.org</Email>
-            </Update>
-            <Update release="2">
-                <Date>2014-02-22</Date>
-                <Version>0.19.2</Version>
-                <Comment>rebuild</Comment>
-                <Name>Kamil Atlı</Name>
-                <Email>suvarice@gmail.com</Email>
-            </Update>
-            <Update release="1">
-                <Date>2012-08-17</Date>
-                <Version>0.19.2</Version>
-                <Comment>First release</Comment>
-                <Name>Osman Erkan</Name>
-                <Email>osman.erkan@pisilinux.org</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>2317117</InstalledSize>
-        <PackageSize>317166</PackageSize>
-        <PackageHash>457a60fb67a375d3f55f4ab02e5456bf02251b3a</PackageHash>
-        <InstallTarHash>172d38cb5a929cf138a78496434fd8bbe3ad887b</InstallTarHash>
-        <PackageURI>g/gaupol/gaupol-1.9-5-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>gaupol</Name>
-            <Homepage>https://otsaloma.io/gaupol/</Homepage>
-            <Packager>
-                <Name>PisiLinux Community</Name>
-                <Email>admins@pisilinux.org</Email>
             </Packager>
         </Source>
     </Package>
@@ -654,232 +217,6 @@
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>handbrake</Name>
-        <Summary xml:lang="en">The open source video transcoder.</Summary>
-        <Summary xml:lang="tr">Çoklu görev destekli video kodlama/düzenleme aracı</Summary>
-        <Description xml:lang="en">HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs. The program is also used to convert DVDs so they can be viewed on iPods, iPhones and most media players.</Description>
-        <Description xml:lang="tr">Handbrake,Video dosyalarını portatif medya oynatıcıları için düzenleyebilmenin yanısıra çözünürlülük değişimi desteğide sunan özgür video kodlama ve düzenleme aracıdır.</Description>
-        <IsA>app</IsA>
-        <PartOf>multimedia.editor</PartOf>
-        <License>GPL-2</License>
-        <Icon>HandBrake</Icon>
-        <RuntimeDependencies>
-            <Dependency>xz</Dependency>
-            <Dependency>gtk3</Dependency>
-            <Dependency>lame</Dependency>
-            <Dependency>x264</Dependency>
-            <Dependency>zlib</Dependency>
-            <Dependency>bzip2</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>cairo</Dependency>
-            <Dependency>pango</Dependency>
-            <Dependency>libva</Dependency>
-            <Dependency>speex</Dependency>
-            <Dependency>libass</Dependency>
-            <Dependency>libogg</Dependency>
-            <Dependency>libvpx</Dependency>
-            <Dependency>libgcc</Dependency>
-            <Dependency>libxml2</Dependency>
-            <Dependency>jansson</Dependency>
-            <Dependency>fribidi</Dependency>
-            <Dependency>libopus</Dependency>
-            <Dependency>numactl</Dependency>
-            <Dependency>freetype</Dependency>
-            <Dependency>libgudev</Dependency>
-            <Dependency>gstreamer</Dependency>
-            <Dependency>libbluray</Dependency>
-            <Dependency>libnotify</Dependency>
-            <Dependency>gst-libav</Dependency>
-            <Dependency>libvorbis</Dependency>
-            <Dependency>libtheora</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-            <Dependency>libsamplerate</Dependency>
-            <Dependency>libjpeg-turbo</Dependency>
-            <Dependency>gst-plugins-base</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="10">
-                <Date>2021-09-13</Date>
-                <Version>1.4.1</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="9">
-                <Date>2021-07-20</Date>
-                <Version>1.4.0</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="8">
-                <Date>2020-09-17</Date>
-                <Version>1.3.3</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="7">
-                <Date>2020-06-24</Date>
-                <Version>1.3.1</Version>
-                <Comment>Ver. up</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="6">
-                <Date>2016-01-06</Date>
-                <Version>0.10.2</Version>
-                <Comment>Version bump.</Comment>
-                <Name>Stefan Gronewold (groni)</Name>
-                <Email>groni@pisilinux.org</Email>
-            </Update>
-            <Update release="5">
-                <Date>2015-04-30</Date>
-                <Version>0.10.1</Version>
-                <Comment>Version bump.</Comment>
-                <Name>Idris KALP</Name>
-                <Email>idriskalp@gmail.com</Email>
-            </Update>
-            <Update release="4">
-                <Date>2015-02-20</Date>
-                <Version>0.10.0</Version>
-                <Comment>Version bump.</Comment>
-                <Name>Hakan Yıldız</Name>
-                <Email>hknyldz93@gmail.com</Email>
-            </Update>
-            <Update release="3">
-                <Date>2014-06-18</Date>
-                <Version>0.9.9</Version>
-                <Comment>Rebuild for gcc</Comment>
-                <Name>Osman Erkan</Name>
-                <Email>osman.erkan@pisilinux.org</Email>
-            </Update>
-            <Update release="2">
-                <Date>2014-06-07</Date>
-                <Version>0.9.9</Version>
-                <Comment>rebuild</Comment>
-                <Name>Kamil Atlı</Name>
-                <Email>suvari@pisilinux.org</Email>
-            </Update>
-            <Update release="1">
-                <Date>2013-12-05</Date>
-                <Version>0.9.9</Version>
-                <Comment>First release</Comment>
-                <Name>PisiLinux Community</Name>
-                <Email>admins@pisilinux.org</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>99862854</InstalledSize>
-        <PackageSize>13622303</PackageSize>
-        <PackageHash>7622c6a39b7c875dba50ad42116c794fc6b32f94</PackageHash>
-        <InstallTarHash>70ff11d32143ed20417f6fb07e3d76422f836fe8</InstallTarHash>
-        <PackageURI>h/handbrake/handbrake-1.4.1-10-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>handbrake</Name>
-            <Homepage>https://handbrake.fr/</Homepage>
-            <Packager>
-                <Name>PisiLinux Community</Name>
-                <Email>admins@pisilinux.org</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>indicator-sound-switcher</Name>
-        <Summary xml:lang="en">Sound input/output selector indicator for Linux.</Summary>
-        <Description xml:lang="en">It shows an icon in the indicator area or the system tray (whatever is available in your desktop environment). The icon&apos;s menu allows you to switch the current sound input and output (i.e. source ports and sink ports in PulseAudio&apos;s terms, respectively) with just two clicks.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>desktop.misc</PartOf>
-        <License>GPL-3</License>
-        <RuntimeDependencies>
-            <Dependency>gtk3</Dependency>
-            <Dependency>python3</Dependency>
-            <Dependency>keybinder</Dependency>
-            <Dependency>python3-pygobject3</Dependency>
-            <Dependency>ayatana-libappindicator</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-07-24</Date>
-                <Version>2.3.6</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>295005</InstalledSize>
-        <PackageSize>53500</PackageSize>
-        <PackageHash>5f570abd49e07d3068dfc2b1ed4b0c63d680da16</PackageHash>
-        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
-        <PackageURI>i/indicator-sound-switcher/indicator-sound-switcher-2.3.6-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>indicator-sound-switcher</Name>
-            <Homepage>https://yktoo.com/en/software/sound-switcher-indicator/</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>icon-theme-elementary-xfce</Name>
-        <Summary xml:lang="en">Elementary Look for XFCE.</Summary>
-        <Description xml:lang="en">Elementary icons forked from upstream, extended and maintained for Xfce.</Description>
-        <IsA>data</IsA>
-        <PartOf>desktop.lookandfeel</PartOf>
-        <License>GPLv2</License>
-        <History>
-            <Update release="3">
-                <Date>2021-01-31</Date>
-                <Version>0.15.2</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="2">
-                <Date>2020-01-15</Date>
-                <Version>0.14</Version>
-                <Comment>Ver. up</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="1">
-                <Date>2016-10-01</Date>
-                <Version>0.7</Version>
-                <Comment>First release</Comment>
-                <Name>Stefan Gronewold(groni)</Name>
-                <Email>groni@pisilinux.org</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>7185424</InstalledSize>
-        <PackageSize>6293408</PackageSize>
-        <PackageHash>52bbd8bd0cdf2b4a565f3ff0a6e9a44db2ac9fad</PackageHash>
-        <InstallTarHash>dae98655ac38d576e8f8d501dcaffd41dfba2c21</InstallTarHash>
-        <PackageURI>i/icon-theme-elementary-xfce/icon-theme-elementary-xfce-0.15.2-3-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>icon-theme-elementary-xfce</Name>
-            <Homepage>https://github.com/shimmerproject/elementary-xfce</Homepage>
-            <Packager>
-                <Name>Stefan Gronewold(groni)</Name>
-                <Email>groni@pisilinux.org</Email>
             </Packager>
         </Source>
     </Package>
@@ -1036,87 +373,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>lxtask</Name>
-        <Summary xml:lang="en">LXDE Task manager.</Summary>
-        <Description xml:lang="en">Lxtask is a lightweight and desktop independent task manager.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>desktop.lxde</PartOf>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>gtk3</Dependency>
-            <Dependency>glib2</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-02-13</Date>
-                <Version>0.1.10</Version>
-                <Comment>First build.</Comment>
-                <Name>Ayhan Yalçınsoy</Name>
-                <Email>ayhanyalcinsoy@pisilinux.org</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>266134</InstalledSize>
-        <PackageSize>55104</PackageSize>
-        <PackageHash>2b1a819e3ffe68ace196e10ef028673390034f77</PackageHash>
-        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
-        <PackageURI>l/lxtask/lxtask-0.1.10-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>lxtask</Name>
-            <Homepage>https://www.lxde.org/</Homepage>
-            <Packager>
-                <Name>Ayhan Yalçınsoy</Name>
-                <Email>ayhanyalcinsoy@pisilinux.org</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>lf</Name>
-        <Summary xml:lang="en">Terminal file manager</Summary>
-        <Description xml:lang="en">lf is a terminal file manager.</Description>
-        <IsA>app:console</IsA>
-        <PartOf>util.misc</PartOf>
-        <License>MIT</License>
-        <History>
-            <Update release="2">
-                <Date>2021-07-10</Date>
-                <Version>24</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="1">
-                <Date>2021-04-17</Date>
-                <Version>22</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>3827056</InstalledSize>
-        <PackageSize>1188343</PackageSize>
-        <PackageHash>cb4321f0511f357f618458ba347fa0bf1aa7209a</PackageHash>
-        <InstallTarHash>fc273f8d4571435ee9e4c1c131bcf07b5ec9d36c</InstallTarHash>
-        <PackageURI>l/lf/lf-24-2-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>lf</Name>
-            <Homepage>https://godoc.org/github.com/gokcehan/lf</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>lxsession</Name>
         <Summary xml:lang="en">LXDE session manager.</Summary>
         <Description xml:lang="en">lxsession is the default X11 session manager of LXDE.</Description>
@@ -1239,6 +495,45 @@
         </Source>
     </Package>
     <Package>
+        <Name>lxtask</Name>
+        <Summary xml:lang="en">LXDE Task manager.</Summary>
+        <Description xml:lang="en">Lxtask is a lightweight and desktop independent task manager.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency>gtk3</Dependency>
+            <Dependency>glib2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.1.10</Version>
+                <Comment>First build.</Comment>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>266134</InstalledSize>
+        <PackageSize>55104</PackageSize>
+        <PackageHash>2b1a819e3ffe68ace196e10ef028673390034f77</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>l/lxtask/lxtask-0.1.10-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxtask</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>lxde-common</Name>
         <Summary xml:lang="en">LXDE Session default configuration files.</Summary>
         <Description xml:lang="en">lxde-common provides LXDE Session default configuration files and nuoveXT2 iconset.</Description>
@@ -1273,41 +568,6 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>lxde-common</Name>
-            <Homepage>https://www.lxde.org/</Homepage>
-            <Packager>
-                <Name>Ayhan Yalçınsoy</Name>
-                <Email>ayhanyalcinsoy@pisilinux.org</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>lxmenu-data</Name>
-        <Summary xml:lang="en">Menu data files for LXDE.</Summary>
-        <Description xml:lang="en">lxmenu-data provides files needed for LXDE application menus.</Description>
-        <IsA>data</IsA>
-        <PartOf>desktop.lxde</PartOf>
-        <License>LGPL-2.1</License>
-        <History>
-            <Update release="1">
-                <Date>2021-02-13</Date>
-                <Version>0.1.5</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>164129</InstalledSize>
-        <PackageSize>46731</PackageSize>
-        <PackageHash>e23c810ec793dcaa7d63349a47cdb322d20a20ea</PackageHash>
-        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
-        <PackageURI>l/lxmenu-data/lxmenu-data-0.1.5-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>lxmenu-data</Name>
             <Homepage>https://www.lxde.org/</Homepage>
             <Packager>
                 <Name>Ayhan Yalçınsoy</Name>
@@ -1468,6 +728,41 @@
         </Source>
     </Package>
     <Package>
+        <Name>lxmenu-data</Name>
+        <Summary xml:lang="en">Menu data files for LXDE.</Summary>
+        <Description xml:lang="en">lxmenu-data provides files needed for LXDE application menus.</Description>
+        <IsA>data</IsA>
+        <PartOf>desktop.lxde</PartOf>
+        <License>LGPL-2.1</License>
+        <History>
+            <Update release="1">
+                <Date>2021-02-13</Date>
+                <Version>0.1.5</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>164129</InstalledSize>
+        <PackageSize>46731</PackageSize>
+        <PackageHash>e23c810ec793dcaa7d63349a47cdb322d20a20ea</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>l/lxmenu-data/lxmenu-data-0.1.5-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>lxmenu-data</Name>
+            <Homepage>https://www.lxde.org/</Homepage>
+            <Packager>
+                <Name>Ayhan Yalçınsoy</Name>
+                <Email>ayhanyalcinsoy@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>libb2</Name>
         <Summary xml:lang="en">C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp.</Summary>
         <Description xml:lang="en">C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp.</Description>
@@ -1496,46 +791,6 @@
         <Source>
             <Name>libb2</Name>
             <Homepage>https://github.com/BLAKE2/libb2</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>libetpan</Name>
-        <Summary xml:lang="en">A portable middleware for email access.</Summary>
-        <Description xml:lang="en">The purpose of this mail library is to provide a portable, efficient framework for different kinds of mail access: IMAP, SMTP, POP and NNTP.</Description>
-        <IsA>library</IsA>
-        <PartOf>network.library</PartOf>
-        <License>custom</License>
-        <RuntimeDependencies>
-            <Dependency>db</Dependency>
-            <Dependency>openssl</Dependency>
-            <Dependency>cyrus-sasl</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-02-19</Date>
-                <Version>1.9.4</Version>
-                <Comment>First Beta build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>838364</InstalledSize>
-        <PackageSize>253197</PackageSize>
-        <PackageHash>ebdf5d0bbd59808812fb1cf32c94cf71a2985a13</PackageHash>
-        <InstallTarHash>23a2d05a796e6c1a99417db314c48a094a518da2</InstallTarHash>
-        <PackageURI>libe/libetpan/libetpan-1.9.4-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>libetpan</Name>
-            <Homepage>https://www.etpan.org/libetpan.html</Homepage>
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
@@ -1718,67 +973,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>mocp</Name>
-        <Summary xml:lang="en">Music On Console Player.</Summary>
-        <Description xml:lang="en">MOC (music on console) is a console audio player for Linux/Unix designed to be powerful and easy to use.</Description>
-        <IsA>app:console</IsA>
-        <PartOf>multimedia.sound</PartOf>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>db</Dependency>
-            <Dependency>curl</Dependency>
-            <Dependency>file</Dependency>
-            <Dependency>flac</Dependency>
-            <Dependency>popt</Dependency>
-            <Dependency>zlib</Dependency>
-            <Dependency>faad2</Dependency>
-            <Dependency>speex</Dependency>
-            <Dependency>ffmpeg</Dependency>
-            <Dependency>libmad</Dependency>
-            <Dependency>libogg</Dependency>
-            <Dependency>taglib</Dependency>
-            <Dependency>ncurses</Dependency>
-            <Dependency>wavpack</Dependency>
-            <Dependency>alsa-lib</Dependency>
-            <Dependency>libid3tag</Dependency>
-            <Dependency>libmpcdec</Dependency>
-            <Dependency>libvorbis</Dependency>
-            <Dependency>libmodplug</Dependency>
-            <Dependency>libsndfile</Dependency>
-            <Dependency>libtool-ltdl</Dependency>
-            <Dependency>libsamplerate</Dependency>
-            <Dependency>pulseaudio-libs</Dependency>
-            <Dependency>jack-audio-connection-kit</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-06-23</Date>
-                <Version>2.6.0</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>743345</InstalledSize>
-        <PackageSize>237671</PackageSize>
-        <PackageHash>32d720ee5a33c1dfda06eb8957fce2088e3a8e44</PackageHash>
-        <InstallTarHash>452ccd6f9e0d508702ab14e19548fe1ed0405a8b</InstallTarHash>
-        <PackageURI>m/mocp/mocp-2.6.0-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>mocp</Name>
-            <Homepage>http://moc.daper.net/</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>milton</Name>
         <Summary xml:lang="en">An infinite-canvas paint program.</Summary>
         <Description xml:lang="en">Milton is an open source application that lets you Just Paint. There are no pixels, you can paint with (almost) infinite detail. It feels raster-based but it works with vectors. It is not an image editor. It is not a vector graphics editor. It is a program that lets you draw, sketch and paint. There is no save button, your work is persistent with unlimited undo.</Description>
@@ -1947,46 +1141,6 @@
         <Source>
             <Name>obconf</Name>
             <Homepage>http://openbox.org/wiki/ObConf:About</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>python3-configobj</Name>
-        <Summary xml:lang="en">An ini file round tripper.</Summary>
-        <Summary xml:lang="tr">Ayar(ini) dosyalarını okuyup yazabilen python modülü</Summary>
-        <Description xml:lang="en">ConfigObj is a simple but powerful config file reader and writer.</Description>
-        <Description xml:lang="tr">python3-configobj, basit ama güçlü bir ayar dosyaları okuyup yazabilen bir python modülüdür.</Description>
-        <IsA>library</IsA>
-        <PartOf>programming.language.python3</PartOf>
-        <License>BSD</License>
-        <RuntimeDependencies>
-            <Dependency>python3</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-11-19</Date>
-                <Version>5.0.6</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>142937</InstalledSize>
-        <PackageSize>30514</PackageSize>
-        <PackageHash>b63ae2e4d749dd39a363bbecea7ed58fd8cb841d</PackageHash>
-        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
-        <PackageURI>p/python3-configobj/python3-configobj-5.0.6-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>python3-configobj</Name>
-            <Homepage>https://github.com/DiffSK/configobj</Homepage>
             <Packager>
                 <Name>fury</Name>
                 <Email>uglyside@yandex.ru</Email>
@@ -2240,67 +1394,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>qtutilities</Name>
-        <Summary xml:lang="en">Common Qt related C++ classes and routines used by my applications such as dialogs, widgets and models.</Summary>
-        <Description xml:lang="en">Common Qt related C++ classes and routines used by my applications such as dialogs, widgets and models.</Description>
-        <IsA>library</IsA>
-        <PartOf>programming.library</PartOf>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>libgcc</Dependency>
-            <Dependency>qt5-base</Dependency>
-            <Dependency>cpp-utilities</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="4">
-                <Date>2021-09-13</Date>
-                <Version>6.5.0</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="3">
-                <Date>2021-07-11</Date>
-                <Version>6.4.2</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="2">
-                <Date>2021-06-19</Date>
-                <Version>6.4.1</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="1">
-                <Date>2021-01-20</Date>
-                <Version>6.3.3</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>553108</InstalledSize>
-        <PackageSize>147658</PackageSize>
-        <PackageHash>14f25ea5aa268d377b21c4fab338046a0e480ad0</PackageHash>
-        <InstallTarHash>9b897c7929ed2ec83312a4dd8a2dfaaa16a6e0cb</InstallTarHash>
-        <PackageURI>q/qtutilities/qtutilities-6.5.0-4-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>qtutilities</Name>
-            <Homepage>https://github.com/Martchus/qtutilities</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>qt5ct</Name>
         <Summary xml:lang="en">Qt5 configuration tool.</Summary>
         <Description xml:lang="en">This program allows users to configure Qt5 settings (theme, font, icons, etc.) under DE/WM without Qt integration.</Description>
@@ -2379,12 +1472,19 @@
             <Dependency>python3-lxml</Dependency>
             <Dependency>wxGTK-common</Dependency>
             <Dependency>libxdg-basedir</Dependency>
-            <Dependency>ayatana-libappindicator</Dependency>
+            <Dependency>libappindicator</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2021-08-27</Date>
+            <Update release="2">
+                <Date>2021-09-12</Date>
                 <Version>0.2.8</Version>
+                <Comment>Version bump.</Comment>
+                <Name>fury</Name>
+                <Email>uglyside@yandex.ru</Email>
+            </Update>
+            <Update release="1">
+                <Date>2021-01-28</Date>
+                <Version>0.2.7</Version>
                 <Comment>First Beta build.</Comment>
                 <Name>fury</Name>
                 <Email>uglyside@yandex.ru</Email>
@@ -2394,11 +1494,11 @@
         <Distribution>PisiLinux</Distribution>
         <DistributionRelease>2.0</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1420642</InstalledSize>
-        <PackageSize>439161</PackageSize>
-        <PackageHash>738e41f544ca83e3ccde23fcfb00a4c6f9563e65</PackageHash>
-        <InstallTarHash>fed8c8b6d05f3c617698919c5581aa61b698881d</InstallTarHash>
-        <PackageURI>r/radiotray-ng/radiotray-ng-0.2.8-1-p2-x86_64.pisi</PackageURI>
+        <InstalledSize>1364028</InstalledSize>
+        <PackageSize>439253</PackageSize>
+        <PackageHash>53ead63541e1da136b723031b450e72ae2672dad</PackageHash>
+        <InstallTarHash>cf1f909535bb5753206d07473f4e7ff011901190</InstallTarHash>
+        <PackageURI>r/radiotray-ng/radiotray-ng-0.2.8-2-p2-x86_64.pisi</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>radiotray-ng</Name>
@@ -2452,147 +1552,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>terminator</Name>
-        <Summary xml:lang="en">Multiple terminals in one window.</Summary>
-        <Summary xml:lang="tr">&gt;Tek bir pencerede birden fazla terminal çalıştırabilen uygulama.</Summary>
-        <Description xml:lang="en">In April of 2020 we started moving Terminator to GitHub. A new team wanted to continue the work of the original authors.</Description>
-        <Description xml:lang="tr">Terminator tek pencerede birden çok terminal çalıştırarak masaüstü alanınızı daha rahat kullanmanızı amaçlar.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>x11.terminal</PartOf>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>vte</Dependency>
-            <Dependency>gtk3</Dependency>
-            <Dependency>gnutls</Dependency>
-            <Dependency>python3</Dependency>
-            <Dependency>libpcre2</Dependency>
-            <Dependency>keybinder</Dependency>
-            <Dependency>dbus-glib</Dependency>
-            <Dependency>python3-six</Dependency>
-            <Dependency>dbus-python3</Dependency>
-            <Dependency>python3-psutil</Dependency>
-            <Dependency>python3-configobj</Dependency>
-            <Dependency>python3-pygobject3</Dependency>
-            <Dependency>gsettings-desktop-schemas</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2021-04-17</Date>
-                <Version>2.1.1</Version>
-                <Comment>Version bump</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="1">
-                <Date>2021-01-18</Date>
-                <Version>2.1.0</Version>
-                <Comment>First release</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>2000908</InstalledSize>
-        <PackageSize>343268</PackageSize>
-        <PackageHash>bfc16a89ad597b94cdb6a3959e0a52fc29b963d4</PackageHash>
-        <InstallTarHash>bc8094e6d3231ae8230065cfea37f0032bf4dc18</InstallTarHash>
-        <PackageURI>t/terminator/terminator-2.1.1-2-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>terminator</Name>
-            <Homepage>https://gnome-terminator.org/</Homepage>
-            <Packager>
-                <Name>PisiLinux Community</Name>
-                <Email>admins@pisilinux.org</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>transmission-gtk</Name>
-        <Summary xml:lang="en">Transmission&apos;s GTK+ interface (default).</Summary>
-        <Summary xml:lang="tr">Transmission&apos;un öntanımlı GTK+ arayüz istemcisi</Summary>
-        <Description xml:lang="en">Transmission is a free, lightweight Bittorrent client. It features a simple, intuitive interface on top of an efficient backend. This package provides only daemon, web interface and command line client. If you want use Transmission with graphical interface, you should install transmission-gtk or transmission-qt.</Description>
-        <Description xml:lang="tr">Transmission özgür ve hafif BitTorrent istemcisidir. İki değişik kitaplıkla yazılmış basit ve kullanışlı arayüz istemcisi vardır. Qt ile yazılmış arayüz paketinin adı transmission-qt, GTK+ ile yazılmış olanı ise transmission-gtk&apos;dir. Bu pakette sadece servis, komut satırı istemcisi ve Web arayüzü bulunmaktadır.</Description>
-        <IsA>app:gui</IsA>
-        <IsA>service</IsA>
-        <IsA>app:gui</IsA>
-        <IsA>app:console</IsA>
-        <PartOf>network.p2p</PartOf>
-        <License>MIT</License>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency release="5">transmission-cli</Dependency>
-            <Dependency>zlib</Dependency>
-            <Dependency>curl</Dependency>
-            <Dependency>gtk3</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>pango</Dependency>
-            <Dependency>openssl</Dependency>
-            <Dependency>libevent</Dependency>
-            <Dependency>miniupnpc</Dependency>
-            <Dependency>libnotify</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="5">
-                <Date>2020-04-30</Date>
-                <Version>3.00</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="4">
-                <Date>2013-07-22</Date>
-                <Version>2.81</Version>
-                <Comment>V.Bump</Comment>
-                <Name>Osman Erkan</Name>
-                <Email>osman.erkan@pisilinux.org</Email>
-            </Update>
-            <Update release="3">
-                <Date>2013-06-24</Date>
-                <Version>2.77</Version>
-                <Comment>Dep Fixed</Comment>
-                <Name>Osman Erkan</Name>
-                <Email>osman.erkan@pisilinux.org</Email>
-            </Update>
-            <Update release="2">
-                <Date>2013-03-21</Date>
-                <Version>2.77</Version>
-                <Comment>Version bump</Comment>
-                <Name>Ertan Güven</Name>
-                <Email>ertan@pisilinux.org</Email>
-            </Update>
-            <Update release="1">
-                <Date>2012-01-03</Date>
-                <Version>2.42</Version>
-                <Comment>First release</Comment>
-                <Name>Pisi Linux Admins</Name>
-                <Email>admins@pisilinux.org</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>3404866</InstalledSize>
-        <PackageSize>736439</PackageSize>
-        <PackageHash>c91063a9a3ca61e2e528f6757939dc9920052fc9</PackageHash>
-        <InstallTarHash>a72f309d13d5429496d5bc94eea5e70d7541928e</InstallTarHash>
-        <PackageURI>t/transmission-gtk/transmission-gtk-3.00-5-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>transmission</Name>
-            <Homepage>https://transmissionbt.com/</Homepage>
-            <Packager>
-                <Name>PisiLinux Community</Name>
-                <Email>admins@pisilinux.org</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>transcode</Name>
         <Summary xml:lang="en">Converter tool for several video and audio formats</Summary>
         <Summary xml:lang="tr">Çeşitli görüntü ve ses kodlayıcıları için dönüştürme araçları</Summary>
@@ -2637,12 +1596,19 @@
             <Dependency>libjpeg-turbo</Dependency>
         </RuntimeDependencies>
         <History>
+            <Update release="11">
+                <Date>2021-06-21</Date>
+                <Version>1.1.7</Version>
+                <Comment>Rebuild.</Comment>
+                <Name>fury</Name>
+                <Email>uglyside@yandex.ru</Email>
+            </Update>
             <Update release="10">
                 <Date>2019-12-28</Date>
                 <Version>1.1.7</Version>
                 <Comment>Rebuild with new toolchain.</Comment>
                 <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
+                <Email>uglyside@yandex.ru</Email>
             </Update>
             <Update release="9">
                 <Date>2014-12-18</Date>
@@ -2713,10 +1679,10 @@
         <DistributionRelease>2.0</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>6854228</InstalledSize>
-        <PackageSize>1075678</PackageSize>
-        <PackageHash>dfccc7740d35dfd40e2d045d97574b2ac3f41f23</PackageHash>
-        <InstallTarHash>672c65d7d3064c222d1e3eb1954488915cbd557a</InstallTarHash>
-        <PackageURI>t/transcode/transcode-1.1.7-10-p2-x86_64.pisi</PackageURI>
+        <PackageSize>1075586</PackageSize>
+        <PackageHash>f52c281b76bd027277210957b33396974b75ea1f</PackageHash>
+        <InstallTarHash>10dbb20df787f5a729825ec2f5ce226b3520d00a</InstallTarHash>
+        <PackageURI>t/transcode/transcode-1.1.7-11-p2-x86_64.pisi</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>transcode</Name>
@@ -2776,330 +1742,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>tageditor</Name>
-        <Summary xml:lang="en">A tag editor with Qt GUI and command-line interface.</Summary>
-        <Description xml:lang="en">A tag editor with Qt GUI and command-line interface supporting MP4/M4A/AAC (iTunes), ID3, Vorbis, Opus, FLAC and Matroska.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>multimedia.editor</PartOf>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>libgcc</Dependency>
-            <Dependency>qt5-base</Dependency>
-            <Dependency>tagparser</Dependency>
-            <Dependency>qtutilities</Dependency>
-            <Dependency>cpp-utilities</Dependency>
-            <Dependency>qt5-declarative</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="4">
-                <Date>2021-09-13</Date>
-                <Version>3.5.0</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="3">
-                <Date>2021-07-11</Date>
-                <Version>3.4.1</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="2">
-                <Date>2021-06-19</Date>
-                <Version>3.4.0</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="1">
-                <Date>2021-05-25</Date>
-                <Version>3.3.10</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1403446</InstalledSize>
-        <PackageSize>417163</PackageSize>
-        <PackageHash>e5bcee22823af779b491e77281292e8f5d4bfd61</PackageHash>
-        <InstallTarHash>192fce023d451a6bb6b7fcbe284821e0b4435070</InstallTarHash>
-        <PackageURI>t/tageditor/tageditor-3.5.0-4-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>tageditor</Name>
-            <Homepage>https://github.com/Martchus/tageditor</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>tagparser</Name>
-        <Summary xml:lang="en">C++ library for reading and writing MP4/M4A/AAC (iTunes), ID3, Vorbis, Opus, FLAC and Matroska tags.</Summary>
-        <Description xml:lang="en">C++ library for reading and writing MP4/M4A/AAC (iTunes), ID3, Vorbis, Opus, FLAC and Matroska tags.</Description>
-        <IsA>library</IsA>
-        <PartOf>multimedia.misc</PartOf>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>zlib</Dependency>
-            <Dependency>libgcc</Dependency>
-            <Dependency>cpp-utilities</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="4">
-                <Date>2021-09-13</Date>
-                <Version>10.2.0</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="3">
-                <Date>2021-07-11</Date>
-                <Version>10.0.1</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="2">
-                <Date>2021-06-19</Date>
-                <Version>10.0.0</Version>
-                <Comment>Version bump.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-            <Update release="1">
-                <Date>2021-05-25</Date>
-                <Version>9.4.0</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1582059</InstalledSize>
-        <PackageSize>430506</PackageSize>
-        <PackageHash>40677ae625fd95e1e9817884aa3fa62a67db6560</PackageHash>
-        <InstallTarHash>3692967391b53fb5faf1cb4e7a99eb4765c86669</InstallTarHash>
-        <PackageURI>t/tagparser/tagparser-10.2.0-4-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>tagparser</Name>
-            <Homepage>https://github.com/Martchus/tagparser</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>transmission-cli</Name>
-        <Summary xml:lang="en">Transmission&apos;s cli tools, web interface and daemon.</Summary>
-        <Summary xml:lang="tr">Transmission&apos;un öntanımlı CLI, web ve sunucu bileşenleri</Summary>
-        <Description xml:lang="en">Transmission is a free, lightweight Bittorrent client. It features a simple, intuitive interface on top of an efficient backend. This package provides only daemon, web interface and command line client. If you want use Transmission with graphical interface, you should install transmission-gtk or transmission-qt.</Description>
-        <Description xml:lang="tr">Transmission özgür ve hafif BitTorrent istemcisidir. İki değişik kitaplıkla yazılmış basit ve kullanışlı arayüz istemcisi vardır. Qt ile yazılmış arayüz paketinin adı transmission-qt, GTK+ ile yazılmış olanı ise transmission-gtk&apos;dir. Bu pakette sadece servis, komut satırı istemcisi ve Web arayüzü bulunmaktadır.</Description>
-        <IsA>app:console</IsA>
-        <IsA>service</IsA>
-        <IsA>app:gui</IsA>
-        <IsA>app:console</IsA>
-        <PartOf>network.p2p</PartOf>
-        <License>MIT</License>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>zlib</Dependency>
-            <Dependency>curl</Dependency>
-            <Dependency>openssl</Dependency>
-            <Dependency>libevent</Dependency>
-            <Dependency>miniupnpc</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="5">
-                <Date>2020-04-30</Date>
-                <Version>3.00</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="4">
-                <Date>2013-07-22</Date>
-                <Version>2.81</Version>
-                <Comment>V.Bump</Comment>
-                <Name>Osman Erkan</Name>
-                <Email>osman.erkan@pisilinux.org</Email>
-            </Update>
-            <Update release="3">
-                <Date>2013-06-24</Date>
-                <Version>2.77</Version>
-                <Comment>Dep Fixed</Comment>
-                <Name>Osman Erkan</Name>
-                <Email>osman.erkan@pisilinux.org</Email>
-            </Update>
-            <Update release="2">
-                <Date>2013-03-21</Date>
-                <Version>2.77</Version>
-                <Comment>Version bump</Comment>
-                <Name>Ertan Güven</Name>
-                <Email>ertan@pisilinux.org</Email>
-            </Update>
-            <Update release="1">
-                <Date>2012-01-03</Date>
-                <Version>2.42</Version>
-                <Comment>First release</Comment>
-                <Name>Pisi Linux Admins</Name>
-                <Email>admins@pisilinux.org</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>3530066</InstalledSize>
-        <PackageSize>628854</PackageSize>
-        <PackageHash>88e1a68efd58f5b7f25d156d8e5aa630129d393d</PackageHash>
-        <InstallTarHash>5cce0776de2bf6a039986d6419e6e5de9d7e8345</InstallTarHash>
-        <PackageURI>t/transmission-cli/transmission-cli-3.00-5-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>transmission</Name>
-            <Homepage>https://transmissionbt.com/</Homepage>
-            <Packager>
-                <Name>PisiLinux Community</Name>
-                <Email>admins@pisilinux.org</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>transmission-qt</Name>
-        <Summary xml:lang="en">Transmission&apos;s Qt interface.</Summary>
-        <Summary xml:lang="tr">Transmission&apos;un Qt arayüz istemcisi</Summary>
-        <Description xml:lang="en">Transmission is a free, lightweight Bittorrent client. It features a simple, intuitive interface on top of an efficient backend. This package provides only daemon, web interface and command line client. If you want use Transmission with graphical interface, you should install transmission-gtk or transmission-qt.</Description>
-        <Description xml:lang="tr">Transmission özgür ve hafif BitTorrent istemcisidir. İki değişik kitaplıkla yazılmış basit ve kullanışlı arayüz istemcisi vardır. Qt ile yazılmış arayüz paketinin adı transmission-qt, GTK+ ile yazılmış olanı ise transmission-gtk&apos;dir. Bu pakette sadece servis, komut satırı istemcisi ve Web arayüzü bulunmaktadır.</Description>
-        <IsA>app:gui</IsA>
-        <IsA>service</IsA>
-        <IsA>app:gui</IsA>
-        <IsA>app:console</IsA>
-        <PartOf>network.p2p</PartOf>
-        <License>MIT</License>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency release="5">transmission-cli</Dependency>
-            <Dependency>zlib</Dependency>
-            <Dependency>curl</Dependency>
-            <Dependency>libgcc</Dependency>
-            <Dependency>openssl</Dependency>
-            <Dependency>libevent</Dependency>
-            <Dependency>qt5-base</Dependency>
-            <Dependency>miniupnpc</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="5">
-                <Date>2020-04-30</Date>
-                <Version>3.00</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="4">
-                <Date>2013-07-22</Date>
-                <Version>2.81</Version>
-                <Comment>V.Bump</Comment>
-                <Name>Osman Erkan</Name>
-                <Email>osman.erkan@pisilinux.org</Email>
-            </Update>
-            <Update release="3">
-                <Date>2013-06-24</Date>
-                <Version>2.77</Version>
-                <Comment>Dep Fixed</Comment>
-                <Name>Osman Erkan</Name>
-                <Email>osman.erkan@pisilinux.org</Email>
-            </Update>
-            <Update release="2">
-                <Date>2013-03-21</Date>
-                <Version>2.77</Version>
-                <Comment>Version bump</Comment>
-                <Name>Ertan Güven</Name>
-                <Email>ertan@pisilinux.org</Email>
-            </Update>
-            <Update release="1">
-                <Date>2012-01-03</Date>
-                <Version>2.42</Version>
-                <Comment>First release</Comment>
-                <Name>Pisi Linux Admins</Name>
-                <Email>admins@pisilinux.org</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1571465</InstalledSize>
-        <PackageSize>572967</PackageSize>
-        <PackageHash>c88faaa5d60dc5e27df381ff676654c2b44df008</PackageHash>
-        <InstallTarHash>3cec0d4e9f168e0cfa3be1ce0445544952a61a7d</InstallTarHash>
-        <PackageURI>t/transmission-qt/transmission-qt-3.00-5-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>transmission</Name>
-            <Homepage>https://transmissionbt.com/</Homepage>
-            <Packager>
-                <Name>PisiLinux Community</Name>
-                <Email>admins@pisilinux.org</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>tilda</Name>
-        <Summary xml:lang="en">A Gtk based drop down terminal for Linux and Unix.</Summary>
-        <Description xml:lang="en">Tilda is a terminal emulator and can be compared with other popular terminal emulators such as gnome-terminal (Gnome), Konsole (KDE), xterm and many others. The specialities of Tilda are that it does not behave like a normal window but instead it can be pulled up and down from the top of the screen with a special hotkey. Additionally Tilda is highly configurable. It is possible to configure the hotkeys for keybindings, change the appearance and many options that affect the behavior of Tilda.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>unknown</PartOf>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>vte</Dependency>
-            <Dependency>gtk3</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>pango</Dependency>
-            <Dependency>libX11</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-            <Dependency>libconfuse</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-01-01</Date>
-                <Version>1.5.4</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>360207</InstalledSize>
-        <PackageSize>103613</PackageSize>
-        <PackageHash>b0ec0ec949a86095327a8e3b840200d80149670a</PackageHash>
-        <InstallTarHash>55fb36454185b706d3bbd103e2cd4957d7fb3018</InstallTarHash>
-        <PackageURI>t/tilda/tilda-1.5.4-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>tilda</Name>
-            <Homepage>https://github.com/lanoxx/tilda</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>uthash</Name>
         <Summary xml:lang="en">A hash table for C structures.</Summary>
         <Description xml:lang="en">Any C structure can be stored in a hash table using uthash. Just add a UT_hash_handle to the structure and choose one or more fields in your structure to act as the key. Then use these macros to store, retrieve or delete items from the hash table.</Description>
@@ -3135,93 +1777,6 @@
         <Source>
             <Name>uthash</Name>
             <Homepage>http://troydhanson.github.io/uthash/</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>ymuse</Name>
-        <Summary xml:lang="en">Easy, functional, and snappy client for Music Player Daemon.</Summary>
-        <Description xml:lang="en">Ymuse is an easy, functional, and snappy GTK front-end (client) for Music Player Daemon written in Go.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>multimedia.sound</PartOf>
-        <License>Apache-2</License>
-        <RuntimeDependencies>
-            <Dependency>atk</Dependency>
-            <Dependency>gtk3</Dependency>
-            <Dependency>cairo</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>pango</Dependency>
-            <Dependency>freetype</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-            <Dependency>fontconfig</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-02-26</Date>
-                <Version>0.17</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>14145115</InstalledSize>
-        <PackageSize>2447779</PackageSize>
-        <PackageHash>e295bfc2f1a68e8611c847e78b4fe57320b0eb71</PackageHash>
-        <InstallTarHash>bf4e63047d2be135c7d9371512a7cc7a7499e510</InstallTarHash>
-        <PackageURI>y/ymuse/ymuse-0.17-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ymuse</Name>
-            <Homepage>https://yktoo.com/en/software/ymuse/</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>zeitgeist</Name>
-        <Summary xml:lang="en">Activity logging framework.</Summary>
-        <Description xml:lang="en">Zeitgeist is a service which logs the users&apos;s activities and events (files opened, websites visites, conversations held with other people, etc.) and makes relevant information available to other applications.</Description>
-        <IsA>library</IsA>
-        <PartOf>util.admin</PartOf>
-        <License>LGPL-2.1</License>
-        <RuntimeDependencies>
-            <Dependency>gtk3</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>sqlite</Dependency>
-            <Dependency>json-glib</Dependency>
-            <Dependency>telepathy-glib</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2021-06-18</Date>
-                <Version>1.0.3</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>uglyside@yandex.ru</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1741115</InstalledSize>
-        <PackageSize>307927</PackageSize>
-        <PackageHash>9bf89ed36acce56730249e2ef22945aa96559a8c</PackageHash>
-        <InstallTarHash>f1a2af3ebf233cbcd8f24a4628b21033b95934c4</InstallTarHash>
-        <PackageURI>z/zeitgeist/zeitgeist-1.0.3-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>zeitgeist</Name>
-            <Homepage>https://zeitgeist.freedesktop.org/</Homepage>
             <Packager>
                 <Name>fury</Name>
                 <Email>uglyside@yandex.ru</Email>

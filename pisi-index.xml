@@ -18,8 +18,15 @@
             <Dependency>ffmpeg</Dependency>
         </RuntimeDependencies>
         <History>
+            <Update release="2">
+                <Date>2021-12-15</Date>
+                <Version>1.2.6</Version>
+                <Comment>Version bump.</Comment>
+                <Name>fury</Name>
+                <Email>uglyside@yandex.ru</Email>
+            </Update>
             <Update release="1">
-                <Date>2021-07-28</Date>
+                <Date>2021-09-22</Date>
                 <Version>1.2.5</Version>
                 <Comment>For Beta rebuild.</Comment>
                 <Name>fury</Name>
@@ -30,11 +37,11 @@
         <Distribution>PisiLinux</Distribution>
         <DistributionRelease>2.0</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>368564</InstalledSize>
-        <PackageSize>74926</PackageSize>
-        <PackageHash>1158a7c33a2f463fe03e10cd1982233b760cb6be</PackageHash>
-        <InstallTarHash>f82c73d6943e38381bbd19f45f422f212457d94b</InstallTarHash>
-        <PackageURI>a/alsa-plugins/alsa-plugins-1.2.5-1-p2-x86_64.pisi</PackageURI>
+        <InstalledSize>369242</InstalledSize>
+        <PackageSize>76322</PackageSize>
+        <PackageHash>a91d67ba4c29512cefebd6d848884fa99820d206</PackageHash>
+        <InstallTarHash>08f62b336fa53422dc4b36b696c6d96690196f3c</InstallTarHash>
+        <PackageURI>a/alsa-plugins/alsa-plugins-1.2.6-2-p2-x86_64.pisi</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>alsa-plugins</Name>
@@ -42,6 +49,54 @@
             <Packager>
                 <Name>PisiLinux Community</Name>
                 <Email>admins@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>caja-gtkhash-plugin</Name>
+        <Summary xml:lang="en">A cross-platform desktop utility for computing message digests or checksums.</Summary>
+        <Description xml:lang="en">GtkHash is a desktop utility for computing message digests or checksums. Most well-known hash functions are supported, including MD5, SHA1, SHA2 (SHA256/SHA512), SHA3 and BLAKE2.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>desktop.misc</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency>atk</Dependency>
+            <Dependency>gtk3</Dependency>
+            <Dependency>caja</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>libgcrypt</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>libgpg-error</Dependency>
+            <Dependency>caja-extensions</Dependency>
+            <Dependency>gobject-introspection</Dependency>
+            <Dependency>gtkhash-plugin-schema</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-06-18</Date>
+                <Version>1.4</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>uglyside@yandex.ru</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>58950</InstalledSize>
+        <PackageSize>21674</PackageSize>
+        <PackageHash>3e0f3bda7bd9fc069e18cc5ddc9e9ce0a7ea6efa</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>c/caja-gtkhash-plugin/caja-gtkhash-plugin-1.4-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>gtkhash</Name>
+            <Homepage>https://github.com/tristanheaven/gtkhash</Homepage>
+            <Packager>
+                <Name>fury</Name>
+                <Email>uglyside@yandex.ru</Email>
             </Packager>
         </Source>
     </Package>
@@ -150,7 +205,7 @@
                 <Version>1.4</Version>
                 <Comment>First build.</Comment>
                 <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
+                <Email>uglyside@yandex.ru</Email>
             </Update>
         </History>
         <BuildHost>farm_yerel</BuildHost>
@@ -158,8 +213,8 @@
         <DistributionRelease>2.0</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>352</InstalledSize>
-        <PackageSize>1652</PackageSize>
-        <PackageHash>7599440824a610da3c6139bf85dfcfc458f51192</PackageHash>
+        <PackageSize>1656</PackageSize>
+        <PackageHash>65959fdf953ca24cc6252a850ddec4467e9bf9ad</PackageHash>
         <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
         <PackageURI>g/gtkhash-plugin-schema/gtkhash-plugin-schema-1.4-1-p2-x86_64.pisi</PackageURI>
         <PackageFormat>1.2</PackageFormat>
@@ -168,7 +223,7 @@
             <Homepage>https://github.com/tristanheaven/gtkhash</Homepage>
             <Packager>
                 <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
+                <Email>uglyside@yandex.ru</Email>
             </Packager>
         </Source>
     </Package>
@@ -182,7 +237,6 @@
         <RuntimeDependencies>
             <Dependency>atk</Dependency>
             <Dependency>gtk3</Dependency>
-            <Dependency>libb2</Dependency>
             <Dependency>cairo</Dependency>
             <Dependency>glib2</Dependency>
             <Dependency>pango</Dependency>
@@ -198,17 +252,17 @@
                 <Version>1.4</Version>
                 <Comment>First build.</Comment>
                 <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
+                <Email>uglyside@yandex.ru</Email>
             </Update>
         </History>
         <BuildHost>farm_yerel</BuildHost>
         <Distribution>PisiLinux</Distribution>
         <DistributionRelease>2.0</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>308717</InstalledSize>
-        <PackageSize>106720</PackageSize>
-        <PackageHash>5c798b743613f9a947b7b1fc71122ad1c6e1031e</PackageHash>
-        <InstallTarHash>edf7f202555f0114c56f616584ca051701e84016</InstallTarHash>
+        <InstalledSize>308621</InstalledSize>
+        <PackageSize>106271</PackageSize>
+        <PackageHash>a81a251866add9ca16194f7cb3df57d5531ddc9f</PackageHash>
+        <InstallTarHash>551b299f06d75ef692dc04334d37f191b2530d9f</InstallTarHash>
         <PackageURI>g/gtkhash/gtkhash-1.4-1-p2-x86_64.pisi</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -216,7 +270,7 @@
             <Homepage>https://github.com/tristanheaven/gtkhash</Homepage>
             <Packager>
                 <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
+                <Email>uglyside@yandex.ru</Email>
             </Packager>
         </Source>
     </Package>
@@ -763,41 +817,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>libb2</Name>
-        <Summary xml:lang="en">C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp.</Summary>
-        <Description xml:lang="en">C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp.</Description>
-        <IsA>library</IsA>
-        <PartOf>programming.library</PartOf>
-        <License>CC0</License>
-        <History>
-            <Update release="1">
-                <Date>2020-08-28</Date>
-                <Version>0.98.1</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>33328</InstalledSize>
-        <PackageSize>13962</PackageSize>
-        <PackageHash>adcddc7357d485605fa90aebebe2a8aeac685e3b</PackageHash>
-        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
-        <PackageURI>libb/libb2/libb2-0.98.1-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>libb2</Name>
-            <Homepage>https://github.com/BLAKE2/libb2</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>libfm</Name>
         <Summary xml:lang="en">Library for file management.</Summary>
         <Description xml:lang="en">libfm is a LXDE library for file management.</Description>
@@ -1153,7 +1172,7 @@
         <Description xml:lang="en">Supported formats: ID3v1, ID3v2 (mp3), MP4 (mp4, m4a, etc.), VorbisComments (ogg, flac), Musepack (mpc), Monkey’s Audio (.ape) and WavPack (wv).</Description>
         <IsA>app:gui</IsA>
         <PartOf>unknown</PartOf>
-        <License>GPLv3</License>
+        <License>GPL-3</License>
         <RuntimeDependencies>
             <Dependency>python3-qt5</Dependency>
             <Dependency>libchromaprint</Dependency>
@@ -1202,10 +1221,10 @@
         <Distribution>PisiLinux</Distribution>
         <DistributionRelease>2.0</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>2543472</InstalledSize>
-        <PackageSize>584830</PackageSize>
-        <PackageHash>9404f91051003133b2a673f12a7c0194b408598f</PackageHash>
-        <InstallTarHash>9b92385d2c73d04dd76f63e231a469704425ed5c</InstallTarHash>
+        <InstalledSize>11614983</InstalledSize>
+        <PackageSize>3018683</PackageSize>
+        <PackageHash>91498582e7d4564fe255f95cbdbb14435fdf9cab</PackageHash>
+        <InstallTarHash>258f69b45e0dedcb5ff3c5448f0ab1bffa77effd</InstallTarHash>
         <PackageURI>p/puddletag/puddletag-2.0.1-6-p2-x86_64.pisi</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -1705,7 +1724,6 @@
             <Dependency>gtk3</Dependency>
             <Dependency>pango</Dependency>
             <Dependency>cairo</Dependency>
-            <Dependency>libb2</Dependency>
             <Dependency>thunar</Dependency>
             <Dependency>libgcrypt</Dependency>
             <Dependency>gdk-pixbuf</Dependency>
@@ -1719,16 +1737,16 @@
                 <Version>1.4</Version>
                 <Comment>First build.</Comment>
                 <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
+                <Email>uglyside@yandex.ru</Email>
             </Update>
         </History>
         <BuildHost>farm_yerel</BuildHost>
         <Distribution>PisiLinux</Distribution>
         <DistributionRelease>2.0</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>60737</InstalledSize>
-        <PackageSize>21368</PackageSize>
-        <PackageHash>42eae304d582312e786150bbbea6d56d548c19de</PackageHash>
+        <InstalledSize>56545</InstalledSize>
+        <PackageSize>20951</PackageSize>
+        <PackageHash>5c23ed2054a68b3ce89a2b113146d552cc0e83f3</PackageHash>
         <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
         <PackageURI>t/thunar-gtkhash-plugin/thunar-gtkhash-plugin-1.4-1-p2-x86_64.pisi</PackageURI>
         <PackageFormat>1.2</PackageFormat>
@@ -1737,7 +1755,7 @@
             <Homepage>https://github.com/tristanheaven/gtkhash</Homepage>
             <Packager>
                 <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
+                <Email>uglyside@yandex.ru</Email>
             </Packager>
         </Source>
     </Package>

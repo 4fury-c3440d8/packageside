@@ -1,0 +1,14 @@
+<PISI>
+    <Components>
+        <Component>
+            <Name>desktop.lxde</Name>
+            <LocalName xml:lang="en">FIXME</LocalName>
+            <Summary xml:lang="en">FIXME</Summary>
+            <Description xml:lang="en">FIXME</Description>
+            <Maintainer>
+                <Name>fury</Name>
+                <Email>uglyside@yandex.ru</Email>
+            </Maintainer>
+        </Component>
+    </Components>
+</PISI>
